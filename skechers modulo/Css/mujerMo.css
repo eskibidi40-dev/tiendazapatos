@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #28aee0;
+  color: black;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+aside nav ul {
+  list-style: none;
+}
+
+aside nav ul li {
+  margin: 15px 0;
+}
+
+aside nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contenido {
+  flex: 1;
+  padding: 20px;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #fff;
+  padding: 8px 12px;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fila {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.producto {
+  text-align: center;
+}
+
+.producto img {
+  width: 100px;
+  height: auto;
+}
+
+.producto span {
+  color: red;
+  font-weight: bold;
+}

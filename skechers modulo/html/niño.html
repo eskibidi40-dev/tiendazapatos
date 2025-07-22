@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sección Niño   s</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: #15a7db
+    }
+
+    .skechers {
+      font-family: 'Stardos Stencil', sans-serif;
+      color: black;
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    .nav-link {
+      color: white !important;
+    }
+
+    .nav-link.active {
+      text-decoration: underline;
+    }
+
+    .contenido {
+      padding: 120px 40px 40px;
+      width: 100%;
+    }
+
+    .titulo {
+      background-color: #a1a1a1;
+      padding: 10px 100px;
+      font-size: 26px;
+      font-style: italic;
+      letter-spacing: 3px;
+      font-weight: 500;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      float: right;
+      margin-bottom: 20px;
+      width: 100px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px 40px;
+      justify-items: center;
+    }
+
+    .producto {
+      width: 180px;
+      text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+    }
+
+    .producto p {
+      margin: 5px 0;
+    }
+
+    .precio {
+      color: red;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 768px) {
+      .productos {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .titulo {
+        padding: 10px 30px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .productos {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand skechers" href="index.html">SKECHERS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link mx-4 fs-5" href="hombre.html">Hombre</a>
+          <a class="nav-link mx-4 fs-5" href="mujerMO.html">Mujer</a>
+          <a class="nav-link mx-4 fs-5 active" href="#">Niño</a>
+          <a class="nav-link ms-4 fs-5 " href="niñas.html">Niña</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contenido">
+    <img src="../img/logoSkecher.png" alt="Logo Skechers" class="logo">
+
+    <div style="text-align: center;">
+      <div class="titulo">SECCIÓN NIÑOS</div>
+    </div>
+
+    <div class="productos">
+      <!-- 15 productos -->
+
+  <div class="producto"><img src="../img/image 1.png" alt="Zapato Niño 1"><p>Go Run Fast - Valor</p><p class="precio">$44.00</p></div>
+  <div class="producto"><img src="../img/image 2.png" alt="Zapato Niño 2"><p>Go Run 400 - Vortex</p><p class="precio">$46.00</p></div>
+  <div class="producto"><img src="../img/image 3.png" alt="Zapato Niño 3"><p>Stamina V2</p><p class="precio">$49.00</p></div>
+  <div class="producto"><img src="../img/image 4.png" alt="Zapato Niño 4"><p>Go Run 650</p><p class="precio">$40.00</p></div>
+  <div class="producto"><img src="../img/image 5.png" alt="Zapato Niño 5"><p>Play On Red</p><p class="precio">$38.00</p></div>
+  <div class="producto"><img src="../img/image 6.png" alt="Zapato Niño 6"><p>Flex-Glow Dinosaur</p><p class="precio">$50.00</p></div>
+  <div class="producto"><img src="../img/nino1.png" alt="Zapato Niño 7"><p>Go Run 650 Jet</p><p class="precio">$42.00</p></div>
+  <div class="producto"><img src="../img/nino8.webp" alt="Zapato Niño 8"><p>Transformers - Optimus</p><p class="precio">$47.00</p></div>
+  <div class="producto"><img src="../img/nino9.png" alt="Zapato Niño 9"><p>Slip-ins Black</p><p class="precio">$39.00</p></div>
+  <div class="producto"><img src="../img/nino15.png" alt="Zapato Niño 10"><p>Solium prime</p><p class="precio">$33.00</p></div>
+  <div class="producto"><img src="../img/nino11.png" alt="Zapato Niño 11"><p>Krateak pro 2</p><p class="precio">$45.00< /p></div>
+  <div class="producto"><img src="../img/nino12.png" alt="Zapato Niño 12"><p>Work Boots Kids</p><p class="precio">$48.00</p></div>
+  <div class="producto"><img src="../img/nino13.png" alt="Zapato Niño 13"><p>Stepz Verde</p><p class="precio">$35.00</p></div>
+  <div class="producto"><img src="../img/image 2.png" alt="Zapato Niño 14"><p>Skech-Air Zoom</p><p class="precio">$46.00</p></div>
+  <div class="producto"><img src="../img/nino15.png" alt="Zapato Niño 15"><p>Go Run Fierce</p><p class="precio">$49.00</p></div>
+</div>
+</div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
