@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sección Hombre</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background-color: #15a7db;
+    }
+
+    .skechers {
+      font-family: 'Stardos Stencil', sans-serif;
+      color: black;
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    .nav-link {
+      color: white !important;
+    }
+
+    .nav-link.active {
+      text-decoration: underline;
+    }
+
+    .contenido {
+      padding: 120px 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .titulo {
+      background-color: #e6e6e6;
+      padding: 10px 100px;
+      font-size: 26px;
+      font-style: italic;
+      letter-spacing: 3px;
+      font-weight: 500;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      float: right;
+      margin-bottom: 20px;
+      width: 100px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 40px 30px;
+      justify-items: center;
+    }
+
+    .producto {
+      width: 100%;
+      max-width: 180px;
+      text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+    }
+
+    .producto p {
+      margin: 40px 0;
+    }
+
+    .precio {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand skechers" href="index.html">SKECHERS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link mx-4 fs-5 active" href="hombre.html">Hombre</a>
+          <a class="nav-link mx-4 fs-5" href="mujerMO.html">Mujer</a>
+          <a class="nav-link mx-4 fs-5" href="niño.html">Niño</a>
+          <a class="nav-link ms-4 fs-5" href="niñas.html">Niña</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contenido">
+
+    <img src="../img/logoSkecher.png" alt="Logo Skechers" class="logo">
+
+    <div style="text-align: center;">
+      <div class="titulo w-100">SECCION HOMBRE</div>
+    </div>
+
+    <div class="productos">
+      <!-- Producto 1 -->
+      <div class="producto">
+        <img src="../img/zapato1.png" alt="Zapato 1">
+        <p>Slip-ins Step Max</p>
+        <p class="precio">$ 45.00</p>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="producto">
+        <img src="../img/hombreC.png" alt="Hombre C">
+        <p>Relaxed Fit Black</p>
+        <p class="precio">$ 50.00</p>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="producto">
+        <img src="../img/hombre (2).png" alt="Hombre 2">
+        <p>Arch Fit Classic</p>
+        <p class="precio">$ 48.00</p>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="producto">
+        <img src="../img/zapato4.png" alt="Zapato 4">
+        <p>Slip-ins Glide Sport</p>
+        <p class="precio">$ 52.00</p>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="producto">
+        <img src="../img/zapato5.png" alt="Zapato 5">
+        <p>Bounder 2.0 Max</p>
+        <p class="precio">$ 49.00</p>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="producto">
+        <img src="../img/zapato6.png" alt="Zapato 6">
+        <p>Flex Advantage PRO</p>
+        <p class="precio">$ 53.00</p>
+      </div>
+
+      <!-- Repetidos -->
+      <div class="producto">
+        <img src="../img/zapato1.png" alt="Zapato 1">
+        <p>Slip-ins Step Max</p>
+        <p class="precio">$ 45.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/hombreC.png" alt="Hombre C">
+        <p>Relaxed Fit Black</p>
+        <p class="precio">$ 50.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/hombre (2).png" alt="Hombre 2">
+        <p>Arch Fit Classic</p>
+        <p class="precio">$ 48.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/zapato4.png" alt="Zapato 4">
+        <p>Slip-ins Glide Sport</p>
+        <p class="precio">$ 52.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/zapato5.png" alt="Zapato 5">
+        <p>Bounder 2.0 Max</p>
+        <p class="precio">$ 49.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/zapato6.png" alt="Zapato 6">
+        <p>Flex Advantage PRO</p>
+        <p class="precio">$ 53.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/zapato1.png" alt="Zapato 1">
+        <p>Slip-ins Step Max</p>
+        <p class="precio">$ 45.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/hombreC.png" alt="Hombre C">
+        <p>Relaxed Fit Black</p>
+        <p class="precio">$ 50.00</p>
+      </div>
+
+      <div class="producto">
+        <img src="../img/zapato4.png" alt="Zapato 4">
+        <p>Slip-ins Glide Sport</p>
+        <p class="precio">$ 52.00</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
